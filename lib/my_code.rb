@@ -1,3 +1,5 @@
 # Your Code Here
 
-def  
+def map 
+  
+end
