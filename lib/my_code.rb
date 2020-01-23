@@ -10,12 +10,7 @@ def map(source_array)
   new_array
 end
 
-def reduce(source_array, starting_value=0)
-  i = 0
-  total = starting_value
-  while i < source_array.length
-    total += source_array[i]
-    i += 1
-  end
-  total
+def reduce(source_array, starting_value=nil)
+  if starting_value
+    num1 = starting_value
 end
